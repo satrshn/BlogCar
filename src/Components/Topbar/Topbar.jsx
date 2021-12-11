@@ -19,17 +19,17 @@ export default function Topbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fw-bold text-dark ms-2">
               <Link className="nav-link" to="/produk">
                 Produk
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link active" to="/about">
+            <li className="nav-item fw-bold text-dark ms-2">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fw-bold text-dark ms-2">
               <Link className="nav-link" to="/help">
                 Help
               </Link>
