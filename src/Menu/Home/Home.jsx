@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <div class="card bg-dark text-black fw-bold border-0">
         <img src="images/bg.jpg" class="card-img" alt="latar" height="1080px" />
         <div class="card-img-overlay">
@@ -12,7 +12,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container my- py-3">
+      <div className="container py-3">
         <div className="col-12 mb-5">
           <h1 className="display-6 fw-bolder text-center">
             Cari Kendaraan mu
@@ -64,6 +64,6 @@ export default function Home() {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
