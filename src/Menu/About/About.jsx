@@ -17,6 +17,11 @@ export default function About() {
                 Halo, kami adalah perusahaan yang bergerak dalam bidang Otomotif untuk membantu anda dalam mencari mobil impian anda, <b>Segala jenis mobil hanya bisa anda dapatkan disini!</b>
               </p>
             </div>
+            <h5 className="card-title display-5 fw-bolder mb-2">Contact</h5>
+            <p>Alamat: Jalan Jakarta Tengah Gedung Milenium Lt.17</p>
+            <p>Email: BlogCar.business@gmail.com</p>
+            <p>Nomor Telfon: 021436587</p>
+            <p>Nomor Whatsapp: 081234567890</p>
             <div class="d-grid gap-2">
               <Link to="/produk">
                 <button class="btn btn-outline-dark fw-bolder p-3 w-100" type="button">

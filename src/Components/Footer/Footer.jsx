@@ -11,8 +11,8 @@ export default function Footer() {
             <h5 className="h1 text-white">BlogCar</h5>
             <p className="small text-muted">Copyright 2021 by Kelompok Desain Web 6.</p>
           </div>
-          <div className="col-lg-2 col-md-6">
-            <h5 className="text-white mb-3">Quick links</h5>
+          <div className="col">
+            <h5 className="h3 text-white mb-3">Quick links</h5>
             <ul className="list-unstyled text-muted text-decoration-none">
               <li>
                 <Link to="/">Home</Link>
@@ -28,12 +28,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <h5 className="text-white mb-3">Social Media</h5>
-            <li><a href="#"><i class="fa fa-facebook"><j class="text-blue"> Facebook</j></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"><j class="text-blue"> Twitter</j></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"><j class="text-blue"> Instagram</j></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"><j class="text-blue"> Youtube</j></i></a></li>
+          <div className="col">
+            <h5 className="h3 text-white mb-3">Social Media</h5>
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"><j class="text-blue"> Facebook</j></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"><j class="text-blue"> Twitter</j></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"><j class="text-blue"> Instagram</j></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"><j class="text-blue"> Youtube</j></i></a></li>
           </div>
         </div>
       </div>
